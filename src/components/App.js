@@ -1,9 +1,30 @@
-import React from 'react'
+import GlobalStyles from "./GlobalStyles";
+import data from "../data";
+import Typeahead from "./Typeahead";
+import styled from "styled-components";
 
-function App() {
+const App = (props) => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <Wrapper>
+        <GlobalStyles />
+        <Typeahead
+          suggestions={data.books}
+          categories={data.categories}
+          handleSelect={(suggestion) => {
+            window.alert(suggestion);
+          }}
+        />
+      </Wrapper>
+    </>
+  );
+};
 
-export default App
+const Wrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+`;
+
+export default App;
