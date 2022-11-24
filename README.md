@@ -1,4 +1,15 @@
-# React Autocomplete App - Bootcamp study project
+# React Autocomplete App 
+Bootcamp study project
+
+## ⚡ Setup
+
+### Install styled-components npm or yarn
+```
+npm install --save styled-components
+yarn add styled-components
+```
+
+---
 
 ## ⚡ To do
 
