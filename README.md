@@ -1,5 +1,5 @@
 # React Autocomplete App 
-Bootcamp study project
+Bootcamp study project to learn how to use useState react hook and styled-components.
 
 ## ⚡ Setup
 
